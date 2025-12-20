@@ -1,48 +1,42 @@
 # 🍕 PizzaProject
 
-[![Java](https://img.shields.io/badge/Java-17-orange)](https://www.oracle.com/java/)  
-Ein Java-Projekt zur Verwaltung von Pizzabestellungen  
-A Java project for managing pizza orders  
+[![Java](https://img.shields.io/badge/Java-17-orange)](https://www.oracle.com/java/)
+
+A pure Java project focused on object-oriented design and clean domain modeling
+for managing pizza orders.
 
 ---
 
-## ✨ Funktionen / Features
-
-| 🇩🇪 Deutsch | 🇬🇧 English |
-|------------|-------------|
-| Erstellung neuer Bestellungen mit verschiedenen Lieferarten (`LieferungsArt`) | Create new orders with different delivery methods (`LieferungsArt`) |
-| Unterstützung für verschiedene Bestellartikel wie Pizza, Getränke und Zutaten | Support for different order items such as pizzas, drinks, and ingredients |
-| Berechnung der Gesamtkosten mit Rabatt ab 30 € | Calculate the total cost with discount above 30 EUR |
-| Flexible Klassenstruktur für Erweiterungen | Flexible class structure for future extensions |
+## ✨ Features
+- Create and manage pizza orders with different delivery types
+- Support for multiple order items (pizza, drinks, ingredients)
+- Price calculation with discount logic (orders above 30 EUR)
+- Clean and extendable class structure
 
 ---
 
-## 📝 Hinweis / Note
-🇩🇪 Einige einfache Klassen wurden nicht erneut geschrieben, da das Projekt einmal versehentlich gelöscht wurde.  
-🇬🇧 Some simple classes were not re-written because the project was accidentally deleted once.  
-
-👉 Die Hauptstruktur und Logik sind jedoch vollständig und funktionsfähig.  
-👉 However, the main structure and logic are complete and functional.  
-
----
-
-## 🎯 Lernziel / Learning Goal
-- 🇩🇪 Dieses Projekt wurde zunächst mit Hilfe meines Lehrers begonnen und später von mir komplett neu geschrieben und erweitert.  
-- 🇬🇧 This project was initially started with my teacher’s guidance and later I rewrote and expanded it completely by myself.  
-
-🔑  
-- 🇩🇪 Ich **verstehe den Zweck jeder Klasse und Methode vollständig** und möchte meine OOP-Kenntnisse vertiefen.  
-- 🇬🇧 I **fully understand the purpose of each class and method** and aim to deepen my OOP knowledge.  
+## 🧱 Design & Concepts
+- Pure Java (no frameworks)
+- Object-Oriented Programming (OOP)
+- Composition, polymorphism, and enums
+- Clear separation of responsibilities
 
 ---
 
-## 🚀 Technologien / Technologies
-- Java 17+  
-- OOP (Klassen, Vererbung, Polymorphismus, Enums, Komposition)  
-- Git & GitHub  
+## 🚀 Technologies
+- Java 17
+- OOP principles
+- Git & GitHub
+
+---
+
+## 🎯 Purpose
+This project was built to strengthen my Java fundamentals and object-oriented
+thinking and serves as a solid foundation for future backend development with
+the Spring Framework.
 
 ---
 
 ## 📌 Status
-✅ Voll funktionsfähig / Fully functional  
-🛠️ Erweiterbar / Extendable  
+✔ Fully functional  
+🛠 Extendable by design
