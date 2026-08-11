@@ -1,3 +1,4 @@
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -12,16 +13,17 @@ public class Pizza extends Bestellungsartikel{
         this.pizzaGröße = pizzaGröße;
         inhalt = new ArrayList<>();
     }
+
     public  void addInhaltPizza(PizzaInhalt pizzaInhalt){
         inhalt.add(pizzaInhalt);
     }
 
-   @Override
-protected int Kostenerhalten() {
-    int sum = grundPreis;
-    for (PizzaInhalt pizzaInhalt : inhalt) {
-        sum += pizzaInhalt.kostenErhalten();
+    @Override
+    protected int Kostenerhalten() {
+        int sum = grundPreis;
+        for (PizzaInhalt pizzaInhalt : inhalt) {
+            sum += pizzaInhalt.kostenErhalten();
+        }
+        return pizzaGröße.value*sum;
     }
-    return pizzaGröße.value * sum;
-}
 }
