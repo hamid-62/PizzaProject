@@ -18,15 +18,14 @@ public class Bestellen {
 
 
     public int calcBestellung() {
-        int summe = lieferungsArt.value;
-        for (Bestellungsartikel b : bestellungsartikelList) {
-            summe+=b.Kostenerhalten();
-            if(summe>30){
-                summe-=0.1*summe;
-            }
-        }
-        return summe;
-
+    int summe = lieferungsArt.value;
+    for (Bestellungsartikel b : bestellungsartikelList) {
+        summe += b.Kostenerhalten();
     }
+    if (summe > 30) {
+        summe -= (int) (0.1 * summe);
+    }
+    return summe;
+}
 
 }
