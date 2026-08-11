@@ -5,6 +5,10 @@
 A pure Java project focused on object-oriented design and clean domain modeling
 for managing pizza orders.
 
+> **Note:** I wrote this project about 5 months into learning Java. I've since
+> continued learning and am now working with Spring Core and Spring Boot — check
+> my other/newer repositories for more up-to-date work.
+
 ---
 
 ## ✨ Features
@@ -34,6 +38,13 @@ for managing pizza orders.
 This project was built to strengthen my Java fundamentals and object-oriented
 thinking and serves as a solid foundation for future backend development with
 the Spring Framework.
+
+---
+
+## 🔧 What I'd improve next
+- Add unit tests (JUnit) to verify pricing calculations
+- Replace console output with persistent storage (file or database)
+- Rebuild as a REST API using Spring Boot
 
 ---
 
