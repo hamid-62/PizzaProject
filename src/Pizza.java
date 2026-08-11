@@ -16,13 +16,12 @@ public class Pizza extends Bestellungsartikel{
         inhalt.add(pizzaInhalt);
     }
 
-    @Override
-    protected int Kostenerhalten() {
-        int sum = 0;
-        sum=+grundPreis;
-        for (PizzaInhalt pizzaInhalt : inhalt) {
-            pizzaInhalt.kostenErhalten();
-        }
-        return pizzaGröße.value*sum;
+   @Override
+protected int Kostenerhalten() {
+    int sum = grundPreis;
+    for (PizzaInhalt pizzaInhalt : inhalt) {
+        sum += pizzaInhalt.kostenErhalten();
     }
+    return pizzaGröße.value * sum;
+}
 }
